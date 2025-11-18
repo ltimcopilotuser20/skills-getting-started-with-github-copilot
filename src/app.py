@@ -1,3 +1,7 @@
+from fastapi import FastAPI, HTTPException
+
+app = FastAPI()
+
 activities = {
    "Chess Club": {
       "description": "Learn strategies and compete in chess tournaments",
